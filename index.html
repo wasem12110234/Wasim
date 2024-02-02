@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User </title>
+</head>
+<body>
+    <h2>User Login Form</h2>
+    <form action="authenticate.php" method="post">
+        <label for="user_type"> Login in</label><br>
+        <select id="user_type" name="user_type">
+            <option value="PA">PA Dashboard</option>
+            <option value="ST">ST Dashboard</option>
+            <option value="SA">SA Dashboard</option>
+            <option value="FA">FA Dashboard</option>
+            <option value="AD">AD Dashboard</option>
+        </select><br><br>
+        <label for="uid">Enter your UID:</label><br>
+        <input type="text" id="uid" name="uid"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
